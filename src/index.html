@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body,
+      html {
+        min-height: 100vh;
+        min-width: 100vw;
+        margin: 0;
+        padding: 0;
+        color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore sit
+      eius distinctio quae, sint optio, consectetur labore sapiente nobis rem
+      perspiciatis dolores laborum quos? Et voluptates molestias saepe tenetur
+      error. Nemo molestias rerum at vel animi sed, quas perferendis
+      consequuntur maiores itaque cumque debitis modi vitae commodi numquam
+      facilis. Quae dolores perferendis laboriosam fugiat totam impedit
+      deserunt! Nobis, voluptas eum? Omnis doloremque pariatur repellendus
+      similique doloribus architecto vero aliquam officiis non deserunt fuga,
+      deleniti, accusantium blanditiis molestiae soluta adipisci illo neque!
+      Ratione numquam aperiam in sunt, voluptatem veniam fuga laudantium! Quia
+      laborum at impedit quam totam aut in, expedita perspiciatis eligendi
+      quidem, necessitatibus quod cum aspernatur eveniet repellat maxime ipsam
+      deserunt vel beatae, debitis doloribus! Facilis pariatur quia atque illo.
+    </div>
+    <script src="../dist/watermarking-js.min.js"></script>
+    <script>
+      // import Watermark from "./watermark.js";
+
+      new Watermark({
+        // type: "text",
+        // input: "watermarking-js",
+        type: "image",
+        input: "./assets/e1.png",
+        rotate: -45,
+        cellSize: 200,
+        imgHeight: 50,
+        imgWidth: 50,
+        opacity: 0.5,
+        color: "red",
+        fontSize: "14",
+        // debug: true,
+      });
+    </script>
+  </body>
+</html>

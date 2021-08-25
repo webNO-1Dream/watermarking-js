@@ -1,0 +1,11 @@
+.*
+*.md
+*.yml
+build/
+node_modules/
+src/
+test/
+index.html
+*.png
+webpack.config.js
+watermark.js

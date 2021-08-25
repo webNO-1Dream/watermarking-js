@@ -7,7 +7,7 @@
 #### 使用
 
 ```js
-<script src="./dist/watermarking-js.min.js"></script>
+<script src="../dist/watermarking-js.min.js"></script>
 <script>
     new Watermark(OPTIONS);
 </script>

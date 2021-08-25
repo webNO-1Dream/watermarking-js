@@ -1,10 +1,10 @@
-特性
+#### 特性
 
 1. 支持文字和图片
 2. 禁止开发模式水印元素删除和修改。不可删除水印。
 3. 水印可配置
 
-使用
+#### 使用
 
 ```js
 <script src="./dist/watermarking-js.min.js"></script>
@@ -13,7 +13,7 @@
 </script>
 ```
 
-npm
+##### npm
 
 ```tex
 npm install watermarking-js
@@ -24,7 +24,7 @@ import Watermark from "watermarking-js";
 new Watermark(OPTIONS);
 ```
 
-options
+##### options
 
 | name       | type    | default         | 描述                                                 |
 | ---------- | ------- | --------------- | ---------------------------------------------------- |
@@ -41,9 +41,9 @@ options
 | fontSize   | Number  | 16              | type=text, 字体大小                                  |
 | fontFamily | String  | Verdana         | type=text, 字体                                      |
 
-例子
+#### 例子
 
-文字水印
+##### 文字水印
 
 ```js
 new Watermark({
@@ -59,7 +59,7 @@ new Watermark({
 
 ![1.png](https://i.loli.net/2021/08/24/917a3AkyR5DNQep.png)
 
-图片水印
+##### 图片水印
 
 ```js
 new Watermark({
